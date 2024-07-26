@@ -164,3 +164,87 @@ nav a {
   text-align: left;
   text-transform: uppercase;
 }
+
+#section_3 {
+  padding: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.our_block {
+  text-align: center;
+}
+
+.our_block a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #ff8a63;
+}
+
+.our_block h2 {
+  color: #45525b;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.our_block p {
+  color: #6f7278;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.our_box {
+  padding: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.our_logo {
+  padding: 30px 21px;
+  width: 300px;
+  height: 167px;
+  box-sizing: border-box;
+  border: 1px solid;
+  border: 1px solid rgba(202, 204, 209, 0.2);
+  border-radius: 10px;
+  background: #fff;
+  align-items: center;
+}
+
+.our_logo:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  background: rgb(250, 250, 252);
+}
+
+.our_nav {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.our_logo h5 {
+  color: rgb(69, 82, 91);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 2px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.our_logo p {
+  width: 196px;
+  color: rgb(111, 114, 120);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: left;
+}
