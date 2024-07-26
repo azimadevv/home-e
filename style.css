@@ -248,3 +248,72 @@ nav a {
   line-height: 19.6px;
   text-align: left;
 }
+
+#section_4 {
+  background-size: cover;
+  background-position: center;
+}
+
+.meet {
+  display: flex;
+  align-items: center;
+  padding: 70px 0 40px 40px;
+  gap: 100px;
+}
+
+.meet_2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 220px;
+}
+
+.meet_logo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.meet_block a {
+  color: rgb(255, 138, 99);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.meet_block h1 {
+  margin-bottom: 20px;
+  width: 309px;
+  color: #45525b;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.2px;
+  text-align: left;
+}
+
+.meet_block p {
+  width: 368px;
+  color: rgb(111, 114, 120);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+}
+
+.meet_log {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 30px;
+}
+
+.meet_block button {
+  background: none;
+  border: none;
+  color: rgb(69, 82, 91);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+}
